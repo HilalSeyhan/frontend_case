@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+@media(max-width:768px){
+    header div{
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: block !important;
+        margin: auto !important;
+    }
+    
+    .firstPage{
+        background-image:
+        linear-gradient(to bottom right, transparent 40%, #FEF3C7 0);
+        background-size: 100% 100%;
+        background-position: left, right;
+        position: sticky;
+        z-index: -50000;
+    }
+
+    main .bestOfContainer div,
+    main .whyJoinContainer div{
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .whyJoinContainerP{
+        text-align: start !important;
+    }
+
+    main .loveUseContainer div{
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .carousel-inner .carousel-item div {
+        display: none !important;
+    }
+
+    .carousel-inner .carousel-item div:first-child {
+        display: block !important;
+    }
+
+    .loveUseContainer #carouselBtn{
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+}
+
+@media (min-width: 768px) { 
+    .card-img-top {
+        height: 32vh;
+    }
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%) !important;
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%) !important;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFBEB;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar{
+    background: #FFFBEB !important;
+    padding: 24px, 80px, 24px, 80px;
+    justify-content: space-between;
+}
+
+.collersHeader{
+    color: #78350F !important;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: start;
+}
+
+.navbar ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-left: 6px;
+    padding-top: 6px;
+}
+
+.navbar ul li a{
+    color: #78350F !important;
+    text-decoration: none;
+}
+
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.btnSignUpNow{
+    color: #78350F;
+    background-color: #FFFBEB;
+    border: 2px solid #78350F;
+    font-size: 16px;
+    width: 125px;
+    height: 34px;
+    padding: 0px, 16px, 0px, 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.btnSignUpNow:hover{
+    color: #FFFBEB;
+    background-color: #78350F;
+    border-color: #FFFBEB;
+}
+
+.firstPage{
+    background-image:
+    linear-gradient(to bottom right, transparent 50%, #FEF3C7 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: sticky;
+    z-index: -50000;
+}
+
+.btnWatchDemo{
+    color: #78350F;
+    background-color: #FFFBEB;
+    font-size: 16px;
+    width: 125px;
+    height: 34px;
+    padding: 0px, 16px, 0px, 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-color: transparent !important;
+    border-radius: 8px;
+}
+.btnWatchDemo:hover{
+    color: #FFFBEB;
+    background-color: #78350F;
+    border-color: transparent !important;
+}
+
+.bestOfContainer div .cardBest{
+    background-color: #0F172A !important;
+    border-radius: 10px;
+}
+
+.bestOfContainer{
+    background-color: #0F172A !important;
+    color: #E2E8F0;
+    background-image: url(img/section_2.svg);
+    background-repeat: no-repeat;
+}
+
+.btnSignUpNowW{
+    color: #E2E8F0;
+    background-color: #0F172A;
+    border: 2px solid #E2E8F0;
+    font-size: 24px;
+    width: 180px;
+    height: 50px;
+    padding: 0px, 16px, 0px, 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.btnSignUpNowW:hover{
+    color: #0F172A;
+    background-color: #E2E8F0;
+    border-color: #E2E8F0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.btnBuyNow{
+    color: #E2E8F0;
+    background-color: #0F172A;
+    border: 2px solid #E2E8F0;
+    font-size: 18px;
+    width: 125px;
+    height: 34px;
+    padding: 0px, 16px, 0px, 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.btnBuyNow:hover{
+    color: #0F172A;
+    background-color: #E2E8F0;
+    border-color: #E2E8F0;
+}
+
+.whyJoinContainer .card{
+    max-width: 95%;
+}
+
+.whyJoinContainer .card .card-body{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.whyJoinContainerP{
+    font-size: 20px;
+}
+
+.loveUseContainer{
+    margin-top: 40px;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex !important;
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0) !important;
+}
+
+.loveUseContainer .card{
+    text-align: left;
+    margin: 10px;
+    border-radius: 30px;
+}
